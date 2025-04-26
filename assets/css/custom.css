@@ -383,6 +383,7 @@
   background: linear-gradient(135deg, #1a1a1a 0%, #0e616c 100%);
   padding: 80px 0;
   color: #fff;
+  height: 800px;
 }
 
 .contact-bg-overlay {

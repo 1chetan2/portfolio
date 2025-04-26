@@ -40,8 +40,8 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f4fafd;
-  --surface-color: #ffffff;
+background : linear-gradient(180deg, #ffffff, #ffffff);
+
 }
 
 .dark-background {
@@ -519,8 +519,8 @@ section,
 .section-title h2 {
   font-size: 32px;
   font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
   position: relative;
 }
 
@@ -958,9 +958,10 @@ section,
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
+  width: 200px;
+  border-radius: 20%;
   margin: 0 auto;
+  height: 150px;
 }
 
 .testimonials .testimonial-item h3 {
