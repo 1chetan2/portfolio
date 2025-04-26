@@ -41,7 +41,7 @@
 </head>
 <style>
   .z {
-    background: linear-gradient(145deg, #090a0b, #097684); 
+    background: linear-gradient(145deg, #090a0b, #056879,rgb(0, 0, 0)); 
   }
 </style>
 
@@ -91,9 +91,14 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-      <img src="assets/img/xx (2).jpg" alt="" data-aos="fade-in" class="hero-bg">
+      <img src="assets/img/xx (2).png" alt="" data-aos="fade-in" class="hero-bg">
+      <style>
+        .l{
+          margin-left: 40px;
+        }
+      </style>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="l container" data-aos="fade-up" data-aos-delay="100">
         <h2>Chetan Patil</h2>
       
         <p> <h4>I'm <label class="typed c" data-typed-items=" Full-Stack Developer
@@ -111,12 +116,10 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
-        <a href="https://www.github.com/1chetan2" class="google-plus">💻 GitHub</a>
-        <a href="https://www.linkedin.com/in/chetan-patil-63bba6329/" class="linkedin">🔗 LinkedIn</a>
-        <br>
-        📞 +91 9016291373  | ✉️ crp13749@gmail.com
         
-      </div><!-- End Section Title -->
+        📞 +91 9016291373  | ✉️ crp13749@gmail.com<br> <br>
+        
+  
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4 justify-content-center">
@@ -124,33 +127,39 @@
             <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
-            <h2> 🎯 Career Objective </h2><br>
-            <p>Results-driven MCA graduate with hands-on experience in full-stack development and growing expertise in Salesforce. Proficient in Java, Laravel, PHP, JavaScript, Android, and RDBMS. 
-              Eager to deliver scalable solutions and contribute to a forward-thinking tech team.</p>
-            <h2>  🎓 Education.</h2><br>          
+            <h2> 🎯 Career Objective </h2>
+            
+            <p>I am an MCA student with strong fundamentals in Web Development, Programming, and Mobile
+            Application Development. I have built several academic and personal projects using Java, Laravel,
+            JavaScript, and ASP.NET Core. I am passionate about becoming a skilled Salesforce Developer and aim to
+            contribute effectively to real-world projects. I am always eager to learn, collaborate with teams, and take
+            on responsibilities that help me grow both technically and professionally</p> <br>
+            <h2>  🎓 Education.</h2>         
             <div class="row">
               <div class="col-lg-6">
                 <ul>         
                   <li><i class="bi bi-chevron-right"></i> <strong>MCA :</strong> <span>Uka Tarsadia University</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>BCA :</strong> <span>UDHNA COLLEGE UCCC</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>HSC :</strong> <span>T. & T. V. Sarvajanik High School</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>SSC :</strong> <span>Suman High School Number 5</span></li>                
+                                 
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>SGPA : 9.33  &</strong> <span>First Class with Distinction</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>CGPA : 8.67  &</strong> <span>First Class with Distinction</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Marks : 68.58%</strong> </li>                 
-                  <li><i class="bi bi-chevron-right"></i> <strong>Marks : 67.16%</strong></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>SGPA : 9.33  </strong> </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>CGPA : 8.67  </strong> </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Marks : 68.46%</strong> </li>                 
+                  
                 </ul>
+                </div>
+                <div class="resume-container text-center"><br>
+                  <button class="btn btn-primary m-2" data-bs-toggle="modal" data-bs-target="#resumeModal">View Resume</button>
+                  <button class="btn btn-outline-primary m-2" onclick="window.open('assets/certificates/Resume.pdf', '_blank')">Download
+                    Resume</button>
+                </div>
               </div>
             </div> 
-          </div>  
-            <div class="resume-container text-center">
-              <button class="btn btn-primary m-2" data-bs-toggle="modal" data-bs-target="#resumeModal">View Resume</button>
-              <button class="btn btn-outline-primary m-2" onclick="window.open('assets/certificates/Resume.pdf', '_blank')">Download Resume</button>
-          </div>       
+               
         </div>
       </div>
       <section id="resume" class="section-padding">
@@ -182,7 +191,7 @@
 <section id="skills" class="skills section">
   
    <center> <div class="container section-title" data-aos="fade-up"></div><h2 class="gradient-text">Tech Skills</h2>
-    <p>Professional Expertise & Technical Competencies</p></center>
+    <p>Professional Expertise & Technical Competencies</p></center><br>
   </div>
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -345,7 +354,7 @@
 </section>
      
      <!-- Portfolio Section -->
-    <section id="certificates" class="portfolio section light-background">
+ <section id="certificates" class="portfolio section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -450,7 +459,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
                 <img src="assets/img/c107.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -460,11 +469,11 @@
                   <a href="assets/certificates/Cyber Security For awareness .pdf" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div><!-- End Portfolio Container -->
         </div>
       </div>
-    </section><!-- /Portfolio Section -->
+ </section><!-- /Portfolio Section -->
 
 
     <!-- Testimonials Section -->
@@ -511,37 +520,29 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <span>Farmer-Retailer Bidding Platform is a digital marketplace that connects farmers directly with retailers through a
+                  bidding system. Instead of going through middlemen, farmers can list their produce, and retailers can place bids to buy
+                  it at competitive prices. The platform ensures better pricing for farmers and fresher produce for retailers.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Agriculture</h3>
+                <img src="assets/img/testimonials/agrilink.jpg" class="testimonial-img" alt="">
+                <h3>AgriLink - Farmer,Retailer Bidding Platform</h3>
                
               </div>
             </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>bidding management system</h3>
-                
-              </div>
-            </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <span> Influencer Platform is a Laravel-based web application designed to streamline collaboration between
+                  companies and influencers. It enables companies to post marketing campaigns, while influencers can browse and apply to
+                  participate based on their niche and reach.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Virlecollabe</h3>
+                <img src="assets/img/testimonials/virel.jpeg" class="testimonial-img" alt="">
+                <h3>ViralCollab – Influencer Collaboration Platform</h3>
            
               </div>
             </div><!-- End testimonial item -->
@@ -550,11 +551,13 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <span> Flutter-based mobile application designed to help users strengthen their basic math
+                  skills through interactive quizzes. It focuses on addition, subtraction, multiplication tables, square roots, and cube
+                  roots.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Brainymath</h3>
+                <img src="assets/img/testimonials/brainymath.jpeg" class="testimonial-img" alt="">
+                <h3>BrainyMath – Quiz-Based Practice App</h3>
              
               </div>
             </div><!-- End testimonial item -->
@@ -563,11 +566,27 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <span>Developed a web-based platform using ASP.NET Core that connects customers with domestic helpers (servants) for a variety
+                  of household services. The application allows users to search, book, and review helpers based on availability and
+                  service category.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Plant Palace</h3>
+                <img src="assets/img/testimonials/dailyserv.jpg" class="testimonial-img" alt="">
+                <h3>DailyServ – Online Servant Hiring Platform</h3>
+            
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>E-commerce App is a mobile shopping application focused on selling plants and gardening products. It includes a
+                  Java-based Android app connected to a Laravel-powered admin panel via REST APIs for seamless backend management.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/plant.webp" class="testimonial-img" alt="">
+                <h3>Plant Palace – E-commerce App</h3>
               
               </div>
             </div><!-- End testimonial item -->
@@ -652,7 +671,6 @@
         </div>
       </div>
     </section>
-
   </main>
 
  
@@ -695,4 +713,4 @@
 </style>
 
 
-<!-- Resume Modal -->
+
